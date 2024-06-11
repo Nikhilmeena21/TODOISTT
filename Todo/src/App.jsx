@@ -54,7 +54,7 @@ function App() {
     {todolist.map((task) => (
           <li key={task.id} style={{ backgroundColor: task.color }}>  {/* Set background color based on task.color */}
             <h1>{task.taskname}</h1>
-            <button onClick={() => handleEditTask(task.id)}>Edit</button>
+            <button onClick={() => handleEditTask(task.id) className = "edit-button"}>Edit</button>
             <button onClick={() => deletetask(task.id)} className="delete-button"></button>
           </li>
         ))}
