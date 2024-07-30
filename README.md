@@ -10,5 +10,5 @@ A simple and efficient todo list application built with React and Vite.
 
 ## Installation
 
-1. Clone the repository:
+1. Clone the repository:git clone https://github.com/Nikhilmeena21/TODOISTT.git
 
